@@ -1,28 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:camera/camera.dart';
-import 'pages/camera_control_page.dart';
+import 'package:web_socket_channel/web_socket_channel.dart';
+import 'pages/manual_control_page.dart'; // Certifique-se de que esse caminho está correto
 
-// Variável global
-late List<CameraDescription> cameras;
-
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-
-  // Inicializa as câmeras
-  cameras = await availableCameras();
-
-  runApp(MyApp());
+void main() {
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
+    // Substitua pelo endereço correto do seu ESP32 ou servidor WebSocket
+    final channel = WebSocketChannel.connect(
+      Uri.parse('ws://192.168.4.1:80/ws'),
+    );
+
     return MaterialApp(
-      title: 'Controle Robótico',
+      title: 'Controle do Braço Robótico',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CameraControlPage(cameras: cameras), // passa para a tela
+      home: ManualControlPage(channel: channel),
     );
   }
 }
