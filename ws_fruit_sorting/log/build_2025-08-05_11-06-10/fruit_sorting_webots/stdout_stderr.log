@@ -1,0 +1,45 @@
+running develop
+Removing /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit-sorting-webots.egg-link (link to .)
+running egg_info
+writing ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/PKG-INFO
+writing dependency_links to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/dependency_links.txt
+writing entry points to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/entry_points.txt
+writing requirements to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/requires.txt
+writing top-level names to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/top_level.txt
+reading manifest file '../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+writing manifest file '../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build
+creating /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build/lib
+creating /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build/lib/fruit_sorting_webots
+copying fruit_sorting_webots/__init__.py -> /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build/lib/fruit_sorting_webots
+running install
+running install_lib
+creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots
+copying /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build/lib/fruit_sorting_webots/__init__.py -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots
+byte-compiling /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/fruit_sorting_webots -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/ament_index/resource_index/packages
+copying package.xml -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots
+copying launch/robot_launch.py -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+copying launch/run_sim.launch.py -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+copying worlds/Universal Robot OpenCV.wbt -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds
+copying worlds/obj/rail/rail.mtl -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+copying worlds/obj/rail/rail.obj -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+copying worlds/obj/rail/obj.mtl -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+copying controllers/fruit_sorting_ctrl_opencv/03Green.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+copying controllers/fruit_sorting_ctrl_opencv/01HSV.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+copying controllers/fruit_sorting_ctrl_opencv/00Roi.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+copying controllers/fruit_sorting_ctrl_opencv/02Orange.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+copying controllers/fruit_sorting_ctrl_opencv/fruit_sorting_ctrl_opencv.py -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+copying controllers/fruit_sorting_ctrl_opencv/apple/03Green.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+copying controllers/fruit_sorting_ctrl_opencv/apple/01HSV.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+copying controllers/fruit_sorting_ctrl_opencv/apple/00Roi.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+copying controllers/fruit_sorting_ctrl_opencv/orange/01HSV.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+copying controllers/fruit_sorting_ctrl_opencv/orange/00Roi.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+copying controllers/fruit_sorting_ctrl_opencv/orange/02Orange.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+running install_egg_info
+Copying ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info to /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/install.log'

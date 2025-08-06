@@ -1,0 +1,432 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/conveyors/protos/ConveyorBelt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/devices/robotiq/protos/Robotiq3fGripper.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/universal_robots/protos/UR5e.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/GalvanizedMetal.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/CorrugatedMetal.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/MetalStorageBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/balls/protos/Ball.proto"
+
+WorldInfo {
+  basicTimeStep 16
+  contactProperties [
+    ContactProperties {
+      softCFM 0.0001
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.15362978663070948 0.09847186183637996 0.9832096323197204 2.016923604427185
+  position 2.6718883507625284 -4.651889195011676 2.5480525949386834
+  followType "None"
+}
+TexturedBackground {
+  texture "stadium"
+}
+TexturedBackgroundLight {
+}
+UR5e {
+  hidden position_0_0 -6.2225680881873e-05
+  hidden rotation_1 0 0 -1 6.222567908249066e-05
+  hidden position_1_0 7.466618175661347e-05
+  hidden linearVelocity_1 -1.762241985522835e-05 6.083286060233058e-06 -2.5347831381795898e-08
+  hidden angularVelocity_1 2.113789139356324e-07 8.076235327030627e-08 -0.0006186064721090255
+  hidden rotation_2 0 1 0 1.570945338548157
+  hidden position_2_0 2.4388936822853204e-05
+  hidden linearVelocity_2 8.171552505419808e-05 -0.00011834942284072934 -6.03813131257108e-08
+  hidden angularVelocity_2 4.6622514372365214e-07 2.4892108264820545e-07 -0.0006143472301586077
+  hidden rotation_3 0 1 0 4.877199000718424e-05
+  hidden position_3_0 8.364549236869784e-06
+  hidden linearVelocity_3 2.781681882300418e-07 -0.0003359776118805304 -2.3714873139821542e-07
+  hidden angularVelocity_3 7.192158015315359e-07 3.5103447413228645e-07 -0.0006124730749338197
+  hidden rotation_4 0 1 0 1.570804623748544
+  hidden position_4_0 3.2141479546546184e-06
+  hidden linearVelocity_4 7.707227287736653e-05 -0.0004807320523555116 -2.0711093634837897e-07
+  hidden angularVelocity_4 9.718122282569416e-07 -8.17214349830265e-05 -0.0006122090550355437
+  hidden rotation_5 0 0 1 3.2140944602693896e-06
+  hidden position_5_0 -3.2199110194855533e-06
+  hidden linearVelocity_5 8.442367503091901e-05 -0.00047804420857376064 -2.1672999255314698e-07
+  hidden angularVelocity_5 1.2171916191444519e-06 -8.163989916869105e-05 -0.0006442693543903756
+  hidden rotation_6 0 -1 0 7.541224317938461e-06
+  hidden linearVelocity_6 0.00016206046979612922 -0.00047635742661530976 -7.5612370807064e-08
+  hidden angularVelocity_6 1.2160670160904634e-06 -0.00011098702842191086 -0.0006441304735317701
+  hidden position_10_0 1.833553045490598e-07
+  hidden position_10_1 1.8335530389767155e-07
+  hidden position_10_2 0.04950010556702997
+  hidden rotation_11 0.7068252250603848 0.7073882252405276 3.064801045576712e-06 3.1415981297033575
+  hidden position_11_0 0.049499894438009166
+  hidden linearVelocity_11 0.0001916021964648451 -0.0005053293335069334 5.017336970319136e-06
+  hidden angularVelocity_11 1.2156284394908626e-06 -0.0001109869197892802 -0.0006441193262339835
+  hidden rotation_12 0 0 -1 1.0745380149674385e-07
+  hidden position_12_0 -1.534883469502751e-08
+  hidden linearVelocity_12 0.00020437472317290373 -0.0005050882975621237 5.039424829931467e-06
+  hidden angularVelocity_12 1.2151927041662557e-06 -0.0001109868642132459 -0.0006451676061750044
+  hidden rotation_13 0 0 -1 0.5200000153488348
+  hidden position_13_0 -0.05229999999995406
+  hidden linearVelocity_13 0.00023655245409061115 -0.0005230325479091363 8.209453773323056e-06
+  hidden angularVelocity_13 1.2151263150334289e-06 -0.00011098685052867861 -0.0006453199677128661
+  hidden linearVelocity_14 0.0002583660753791448 -0.0005355179645609061 1.0403477916387366e-05
+  hidden angularVelocity_14 1.2151263027035485e-06 -0.00011098684961666379 -0.000645319962053268
+  hidden rotation_15 0.7068252250603848 0.7073882252405276 3.064801045346503e-06 3.141598129703357
+  hidden position_15_0 0.049499894437908476
+  hidden linearVelocity_15 0.000183617640779879 -0.0005054285547971973 5.019359463566602e-06
+  hidden angularVelocity_15 1.2156284921282728e-06 -0.00011098691980729729 -0.0006441195427268099
+  hidden rotation_16 0 0 -1 1.032382731180714e-07
+  hidden position_16_0 -1.5348849693914373e-08
+  hidden linearVelocity_16 0.00019639424385549034 -0.0005051874707169058 5.041446297701379e-06
+  hidden angularVelocity_16 1.2151927999647892e-06 -0.0001109868642044678 -0.0006451679441462278
+  hidden rotation_17 0 0 -1 0.5200000153488494
+  hidden position_17_0 -0.05229999999995406
+  hidden linearVelocity_17 0.00022857431824694052 -0.0005231317030375878 8.211474656742149e-06
+  hidden angularVelocity_17 1.2151264006750925e-06 -0.00011098685053354657 -0.0006453203232633264
+  hidden linearVelocity_18 0.0002503885331767529 -0.0005356171197103094 1.0405498657277545e-05
+  hidden angularVelocity_18 1.215126387182091e-06 -0.0001109868496227133 -0.0006453203175931906
+  hidden rotation_19 0 0 1 1.0745380149674385e-07
+  hidden position_19_0 1.5349510175754662e-08
+  hidden linearVelocity_19 0.00020050302500930326 -0.0004468280317635328 -5.051230324066442e-06
+  hidden angularVelocity_19 1.2159450815206818e-06 -0.0001109869792508332 -0.0006451867440506636
+  hidden rotation_20 0 0 -1 0.5199999846504895
+  hidden position_20_0 -0.052300000000046136
+  hidden linearVelocity_20 0.00023268121361609475 -0.00042861897170048003 -8.100196690558484e-06
+  hidden angularVelocity_20 1.2159302008835146e-06 -0.00011098696658730129 -0.000645340284692404
+  hidden linearVelocity_21 0.0002544946779127832 -0.0004160670844377938 -1.021210385898719e-05
+  hidden angularVelocity_21 1.2159301800178528e-06 -0.00011098696567747719 -0.0006453402790353253
+  translation -0.25 -1.53 0.303
+  controller "fruit_sorting_ctrl_opencv"
+  supervisor TRUE
+  selfCollision FALSE
+  toolSlot [
+    Camera {
+      translation 0 0.13 -0.137
+      rotation -0.6215129473320627 -0.6215169473317238 -0.4769049595863601 2.25159
+      children [
+        Pose {
+          translation -0.002 0 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.239216 0.239216 0.239216
+              }
+              geometry Box {
+                size 0.003 0.01 0.01
+              }
+            }
+          ]
+        }
+        Pose {
+          rotation 0 1 0 -1.5707953071795862
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0.498039
+              }
+              geometry Cylinder {
+                height 0.0015
+                radius 0.003
+              }
+            }
+          ]
+        }
+        Pose {
+          translation -0.002 0 -0.03
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.239216 0.239216 0.239216
+              }
+              geometry Box {
+                size 0.002 0.006 0.05
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 0.0265 0 -0.071
+          rotation 0 1 0 2.0944
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.239216 0.239216 0.239216
+              }
+              geometry Box {
+                size 0.002 0.006 0.067
+              }
+            }
+          ]
+        }
+      ]
+      fieldOfView 1.1
+      width 200
+      height 150
+      antiAliasing TRUE
+      recognition Recognition {
+        frameColor 0.333333 1 0
+      }
+    }
+    DistanceSensor {
+      translation 0 0.09 0
+      rotation 0 0 1 1.5708
+      type "infra-red"
+    }
+    Display {
+      width 200
+      height 150
+    }
+    Robotiq3fGripper {
+    }
+    Speaker {
+    }
+  ]
+}
+DEF stuffs Group {
+  children [
+    ConveyorBelt {
+      hidden translation_1 -1.0279401996271531e-08 -1.3944401189291966e-13 0.22498783576004147
+      hidden rotation_1 -0.07837667307480786 0.9969237996400968 0.0001866249630818551 4.956393499474403e-07
+      hidden linearVelocity_1 2.5228503086793407e-15 -4.920523470502664e-09 -9.435514698409992e-10
+      hidden angularVelocity_1 1.4060447718340507e-07 1.4745858300834323e-12 -4.4290332304994643e-11
+      translation 0.571 0.63 0
+      rotation 0 0 1 -1.5707953071795862
+      size 4.6 0.26 0.3
+      appearance GalvanizedMetal {
+        colorOverride 0 0 0
+      }
+      speed 0.15
+      timer 900
+    }
+    SolidBox {
+      translation -0.16 -1.53 0.15
+      name "Robot Stand"
+      size 0.5 0.3 0.3
+      appearance GalvanizedMetal {
+      }
+    }
+    DEF Gen Solid {
+      translation 0.56 2.74 0
+      children [
+        DEF generator Group {
+          children [
+            Pose {
+              translation -0.2 0 0.22
+              children [
+                Shape {
+                  appearance GalvanizedMetal {
+                  }
+                  geometry Box {
+                    size 0.1 0.5 0.44
+                  }
+                }
+              ]
+            }
+            Pose {
+              translation 0.2 0 0.22
+              children [
+                Shape {
+                  appearance GalvanizedMetal {
+                  }
+                  geometry Box {
+                    size 0.1 0.5 0.44
+                  }
+                }
+              ]
+            }
+            Pose {
+              translation 0 0 0.49
+              children [
+                Shape {
+                  appearance GalvanizedMetal {
+                  }
+                  geometry Box {
+                    size 0.5 0.5 0.1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+      boundingObject USE generator
+    }
+    Solid {
+      translation 0.57 0.94 0.31
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        DEF rail Group {
+          children [
+            Transform {
+              translation 0 -0.145 0
+              scale 0.01 0.01 0.01
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Mesh {
+                    url [
+                      "obj/rail/rail.obj"
+                    ]
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation 0 0.145 0
+              rotation 0 0 1 3.14159
+              scale 0.01 0.01 0.01
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                  }
+                  geometry Mesh {
+                    url [
+                      "obj/rail/rail.obj"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+      name "rail"
+    }
+  ]
+}
+Robot {
+  translation 0.1 0 0.1
+  children [
+    Camera {
+      translation 0.6 -0.55 1.2
+      rotation 0.37796405332525124 0.1565580220880684 -0.912487128738712 2.41886
+      fieldOfView 1.2
+      width 200
+      height 150
+      antiAliasing TRUE
+    }
+  ]
+  name "Fruit CTRL"
+  controller "fruit_ctrl_Py"
+  supervisor TRUE
+}
+RobocupSoccerField {
+}
+ConveyorBelt {
+  hidden translation_1 0 0 0.14999215205724184
+  hidden linearVelocity_1 0 0 -8.945787897027236e-10
+  translation -0.16 0.28 0
+  rotation 0 0 1 1.57079
+  name "conveyor belt(1)"
+  size 3 0.5 0.2
+  appearance CorrugatedMetal {
+    colorOverride 1 0.592157 0.0235294
+    textureTransform TextureTransform {
+      scale 2 2
+    }
+  }
+}
+MetalStorageBox {
+  translation 0 -2.24 -0.31
+}
+ConveyorBelt {
+  hidden translation_1 0 0 0.1499921520572419
+  translation -0.77 -0.22 0
+  rotation 0 0 1 1.5708
+  name "conveyor belt(2)"
+  size 4 0.5 0.2
+  appearance CorrugatedMetal {
+    colorOverride 0 1 0
+    textureTransform TextureTransform {
+      scale 2 2
+    }
+  }
+}
+Ball {
+  hidden linearVelocity_0 2.609377144934403e-07 -0.03371316783987886 0.00020788215031815468
+  hidden angularVelocity_0 -2.3070930455862944 2.1601520974233173e-06 2.362647500329427e-08
+  translation 0.5800001151415741 -0.002277117931450424 0.3499833031633953
+  rotation -0.9999999999998879 -1.7532214515672008e-07 4.3978724158983276e-07 2.0523842590065144
+  color 0 0 1
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.603050456220623e-07 -0.03371314875453 0.00020814857832718382
+  hidden angularVelocity_0 -2.3070934316103218 2.145881184743619e-06 2.3402441570540808e-08
+  translation 0.5800001144537954 1.8977229120564159 0.34998424198817535
+  rotation -0.9999999999998997 -1.66466854823386e-07 4.155536547028607e-07 2.0523827462745685
+  name "ball(9)"
+  color 0 0 1
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.6083117502477933e-07 -0.0337131646254127 0.00020792702240429373
+  hidden angularVelocity_0 -2.30709311060269 2.157748879806935e-06 2.358874269164122e-08
+  translation 0.5800001150257523 0.3177228871192332 0.349983461281253
+  rotation -0.99999999999989 -1.738305959420023e-07 4.3570580482327224e-07 2.0523840042311443
+  name "ball(1)"
+  color 0 1 0
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.606080890788831e-07 -0.033713157895242415 0.00020802097333283895
+  hidden angularVelocity_0 -2.3070932467284133 2.1527167658292786e-06 2.350974121078477e-08
+  translation 0.5800001147832307 0.987722897693978 0.3499837923405176
+  rotation -0.9999999999998941 -1.7070784078819973e-07 4.271602820381122e-07 2.052383470794552
+  name "ball(5)"
+  color 0 1 0
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.605048615270708e-07 -0.03371315478134075 0.0002080644431665686
+  hidden angularVelocity_0 -2.3070933097108113 2.150388301311764e-06 2.3473188603017616e-08
+  translation 0.5800001146710116 1.2977229025867123 0.3499839455171922
+  rotation -0.9999999999998962 -1.6926305352926878e-07 4.232063814868667e-07 2.0523832239802466
+  name "ball(6)"
+  color 0 1 0
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.607146419082395e-07 -0.03371316110963116 0.00020797610124824017
+  hidden angularVelocity_0 -2.3070931817135603 2.1551202495538947e-06 2.3547473340389697e-08
+  translation 0.5800001148990657 0.6677228926433749 0.3499836342226598
+  rotation -0.9999999999998923 -1.7219927264170835e-07 4.31241729367654e-07 2.0523837255703548
+  name "ball(3)"
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.603883056709395e-07 -0.033713151265685866 0.00020811352201072474
+  hidden angularVelocity_0 -2.307093380819164 2.1477592181568367e-06 2.3431919526574415e-08
+  translation 0.5800001145443053 1.6477229081107223 0.34998411845859906
+  rotation -0.9999999999998983 -1.6763191116928353e-07 4.1874229367692857e-07 2.0523829453187026
+  name "ball(7)"
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.610342581051227e-07 -0.033713170753027565 0.00020784148499068572
+  hidden angularVelocity_0 -2.307092986664415 2.1623298584607374e-06 2.366066970383068e-08
+  translation 0.5800001152465313 -0.2922771225086701 0.3499831598690868
+  rotation -0.9999999999998861 -1.7667391972652375e-07 4.434860401204682e-07 2.052384489896415
+  name "ball(2)"
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.6120736086357084e-07 -0.033713175976678174 0.00020776856785099606
+  hidden angularVelocity_0 -2.3070928810099276 2.1662346115791444e-06 2.372198500576602e-08
+  translation 0.5800001154347201 -0.8122771307161769 0.34998290292756806
+  rotation -0.9999999999998826 -1.7909788423376893e-07 4.501183657189522e-07 2.052384903905467
+  name "ball(8)"
+  color 0 0 1
+  radius 0.05
+}
+Ball {
+  hidden linearVelocity_0 2.611307982632207e-07 -0.03371317366620399 0.00020780081966232297
+  hidden angularVelocity_0 -2.3070929277419854 2.1645075506860326e-06 2.3694864638798865e-08
+  translation 0.5800001153514843 -0.5822771270859192 0.3499830165747783
+  rotation -0.9999999999998842 -1.7802572876124987e-07 4.471848385754969e-07 2.052384720786176
+  name "ball(4)"
+  color 0 1 0
+  radius 0.05
+}

@@ -1,0 +1,20 @@
+[1.017s] Invoking command in '/home/lucas-pc/ws_fruit_sorting/fruit_sorting_webots': PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;91m\]$(parse_git_branch)\[\033[00m\]$ PYTHONPATH=/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fruit_sorting_webots build --build-base /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build install --record /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/install.log --single-version-externally-managed install_data
+[1.406s] running egg_info
+[1.406s] writing ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/PKG-INFO
+[1.406s] writing dependency_links to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/dependency_links.txt
+[1.406s] writing entry points to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/entry_points.txt
+[1.407s] writing requirements to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/requires.txt
+[1.407s] writing top-level names to ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/top_level.txt
+[1.408s] reading manifest file '../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.409s] writing manifest file '../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.409s] running build
+[1.409s] running build_py
+[1.409s] running install
+[1.409s] running install_lib
+[1.411s] running install_data
+[1.412s] running install_egg_info
+[1.414s] removing '/home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots-0.0.0-py3.10.egg-info' (and everything under it)
+[1.415s] Copying ../build/fruit_sorting_webots/fruit_sorting_webots.egg-info to /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots-0.0.0-py3.10.egg-info
+[1.415s] running install_scripts
+[1.445s] writing list of installed files to '/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/install.log'
+[1.460s] Invoked command in '/home/lucas-pc/ws_fruit_sorting/fruit_sorting_webots' returned '0': PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;91m\]$(parse_git_branch)\[\033[00m\]$ PYTHONPATH=/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fruit_sorting_webots build --build-base /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build install --record /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/install.log --single-version-externally-managed install_data

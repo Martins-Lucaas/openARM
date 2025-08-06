@@ -1,0 +1,48 @@
+[1.026s] Invoking command in '/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots': PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;91m\]$(parse_git_branch)\[\033[00m\]$ PYTHONPATH=/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build --no-deps symlink_data
+[1.448s] running develop
+[1.684s] running egg_info
+[1.684s] creating fruit_sorting_webots.egg-info
+[1.685s] writing fruit_sorting_webots.egg-info/PKG-INFO
+[1.685s] writing dependency_links to fruit_sorting_webots.egg-info/dependency_links.txt
+[1.685s] writing entry points to fruit_sorting_webots.egg-info/entry_points.txt
+[1.685s] writing requirements to fruit_sorting_webots.egg-info/requires.txt
+[1.685s] writing top-level names to fruit_sorting_webots.egg-info/top_level.txt
+[1.685s] writing manifest file 'fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.686s] reading manifest file 'fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.687s] writing manifest file 'fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.690s] running build_ext
+[1.690s] Creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit-sorting-webots.egg-link (link to .)
+[1.691s] 
+[1.691s] Installed /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots
+[1.691s] running symlink_data
+[1.691s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/ament_index
+[1.691s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/ament_index/resource_index
+[1.691s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/ament_index/resource_index/packages
+[1.691s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/resource/fruit_sorting_webots -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/ament_index/resource_index/packages
+[1.691s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/package.xml -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots
+[1.691s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+[1.691s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/launch/robot_launch.py -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/launch/run_sim.launch.py -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+[1.692s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/worlds/Universal Robot OpenCV.wbt -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds
+[1.692s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj
+[1.692s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/worlds/obj/rail/rail.mtl -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/worlds/obj/rail/rail.obj -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/worlds/obj/rail/obj.mtl -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.692s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers
+[1.692s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/03Green.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/01HSV.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/00Roi.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/02Orange.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/fruit_sorting_ctrl_opencv.py -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.692s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.692s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple/03Green.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.693s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple/01HSV.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.693s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple/00Roi.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.693s] creating /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.693s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange/01HSV.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.693s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange/00Roi.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.693s] symbolically linking /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange/02Orange.png -> /home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.709s] Invoked command in '/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots' returned '0': PS1=\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;91m\]$(parse_git_branch)\[\033[00m\]$ PYTHONPATH=/home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lucas-pc/ws_fruit_sorting/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lucas-pc/ws_fruit_sorting/build/fruit_sorting_webots/build --no-deps symlink_data
