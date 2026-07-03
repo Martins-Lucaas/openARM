@@ -1,0 +1,4 @@
+[console_scripts]
+widowx_driver = widowx_control.driver_node:main
+widowx_gui = widowx_control.gui_node:main
+
