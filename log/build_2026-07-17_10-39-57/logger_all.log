@@ -1,0 +1,896 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff1f0200970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff1f03660b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff1f03660b0>>)
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.431s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/biolab-linux/openARM'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(legacy) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'ros'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/Core) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Códigos de arduino/mpu6050_unifiedsensors) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/Seeeduino XIAO KICAD) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Esquematico/openarm/openarm-backups) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/Manuais de montagem) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/debug) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/kotlin/com/example/motor_control) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/drawable-v21) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-hdpi) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-mdpi) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xhdpi) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxhdpi) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/mipmap-xxxhdpi) by extension 'python_setup_py'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'python'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extensions ['python_setup_py']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/main/res/values-night) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/app/src/profile) by extension 'python_setup_py'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'ros'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extensions ['cmake', 'python']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'python'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extensions ['python_setup_py']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle) by extension 'python_setup_py'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/android/gradle/wrapper) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/assets) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extensions ['cmake', 'python']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Flutter/ephemeral) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/ios/Runner) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/lib/pages) by extension 'python_setup_py'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extensions ['cmake', 'python']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'cmake'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'python'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extensions ['python_setup_py']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux) by extension 'python_setup_py'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/linux/flutter) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'ros'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extensions ['cmake', 'python']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'cmake'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'python'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extensions ['python_setup_py']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/macos/Flutter/ephemeral) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/test) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/software/motor_control/web/icons) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/build) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/build) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/build) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/fruit_sorting_webots) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'legacy/ws_fruit_sorting/fruit_sorting_webots' with type 'ros.ament_python' and name 'fruit_sorting_webots'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/install) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/install) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/install) ignored
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/log) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/log) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(legacy/ws_fruit_sorting/log) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/widowx_control) by extension 'ros'
+[0.490s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/widowx_control' with type 'ros.ament_python' and name 'widowx_control'
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.530s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'fruit_sorting_webots' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'fruit_sorting_webots' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/biolab-linux/openARM/build/fruit_sorting_webots', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/biolab-linux/openARM/install/fruit_sorting_webots', 'merge_install': False, 'path': '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots', 'symlink_install': False, 'test_result_base': None}
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'widowx_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'widowx_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/biolab-linux/openARM/build/widowx_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/biolab-linux/openARM/install/widowx_control', 'merge_install': False, 'path': '/home/biolab-linux/openARM/ros2_ws/src/widowx_control', 'symlink_install': False, 'test_result_base': None}
+[0.567s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.568s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots' with build type 'ament_python'
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('fruit_sorting_webots', 'ament_prefix_path')
+[0.573s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/hook/ament_prefix_path.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/hook/ament_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/hook/ament_prefix_path.sh'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.580s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/biolab-linux/openARM/ros2_ws/src/widowx_control' with build type 'ament_python'
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('widowx_control', 'ament_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/hook/ament_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/hook/ament_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/hook/ament_prefix_path.sh'
+[0.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots'
+[0.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.990s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/biolab-linux/openARM/ros2_ws/src/widowx_control'
+[0.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.464s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload_docs, bdist_dumb, bdist_rpm, bdist_egg, saveopts, install_headers, easy_install, install_data, register, install, bdist, clean, build_ext, bdist_wheel, sdist, alias, develop, setopt, compile_catalog, upload, install_lib, symlink_data, update_catalog, build, install_egg_info, init_catalog, build_scripts, test, build_clib, dist_info, install_scripts, check, build_py, extract_messages, egg_info
+[1.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots': PYTHONPATH=/home/biolab-linux/openARM/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fruit_sorting_webots build --build-base /home/biolab-linux/openARM/build/fruit_sorting_webots/build install --record /home/biolab-linux/openARM/build/fruit_sorting_webots/install.log --install-scripts $base/lib/fruit_sorting_webots --single-version-externally-managed install_data
+[1.467s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload_docs, bdist_dumb, bdist_rpm, bdist_egg, saveopts, install_headers, easy_install, install_data, register, install, bdist, clean, build_ext, bdist_wheel, sdist, alias, develop, setopt, compile_catalog, upload, install_lib, symlink_data, update_catalog, build, install_egg_info, init_catalog, build_scripts, test, build_clib, dist_info, install_scripts, check, build_py, extract_messages, egg_info
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/biolab-linux/openARM/ros2_ws/src/widowx_control': PYTHONPATH=/home/biolab-linux/openARM/build/widowx_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/widowx_control build --build-base /home/biolab-linux/openARM/build/widowx_control/build install --record /home/biolab-linux/openARM/build/widowx_control/install.log --install-scripts $base/lib/widowx_control --single-version-externally-managed install_data
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots' returned '0': PYTHONPATH=/home/biolab-linux/openARM/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fruit_sorting_webots build --build-base /home/biolab-linux/openARM/build/fruit_sorting_webots/build install --record /home/biolab-linux/openARM/build/fruit_sorting_webots/install.log --install-scripts $base/lib/fruit_sorting_webots --single-version-externally-managed install_data
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/fruit_sorting_webots' for CMake module files
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/fruit_sorting_webots' for CMake config files
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/fruit_sorting_webots/lib'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/fruit_sorting_webots/bin'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/pkgconfig/fruit_sorting_webots.pc'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages'
+[1.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('fruit_sorting_webots', 'pythonpath')
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/hook/pythonpath.ps1'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/hook/pythonpath.dsv'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/hook/pythonpath.sh'
+[1.724s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/fruit_sorting_webots/bin'
+[1.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fruit_sorting_webots)
+[1.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/package.ps1'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/package.dsv'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/package.sh'
+[1.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/package.bash'
+[1.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/package.zsh'
+[1.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/biolab-linux/openARM/install/fruit_sorting_webots/share/colcon-core/packages/fruit_sorting_webots)
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/widowx_control' for CMake module files
+[1.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/biolab-linux/openARM/ros2_ws/src/widowx_control' returned '0': PYTHONPATH=/home/biolab-linux/openARM/build/widowx_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/widowx_control build --build-base /home/biolab-linux/openARM/build/widowx_control/build install --record /home/biolab-linux/openARM/build/widowx_control/install.log --install-scripts $base/lib/widowx_control --single-version-externally-managed install_data
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/widowx_control' for CMake config files
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/widowx_control/lib'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/widowx_control/bin'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/widowx_control/lib/pkgconfig/widowx_control.pc'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages'
+[1.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('widowx_control', 'pythonpath')
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/hook/pythonpath.ps1'
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/hook/pythonpath.dsv'
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/hook/pythonpath.sh'
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/biolab-linux/openARM/install/widowx_control/bin'
+[1.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(widowx_control)
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/package.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/package.dsv'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/package.sh'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/package.bash'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/biolab-linux/openARM/install/widowx_control/share/widowx_control/package.zsh'
+[1.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/biolab-linux/openARM/install/widowx_control/share/colcon-core/packages/widowx_control)
+[1.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.736s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.741s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.757s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biolab-linux/openARM/install/local_setup.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/biolab-linux/openARM/install/_local_setup_util_ps1.py'
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biolab-linux/openARM/install/setup.ps1'
+[1.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biolab-linux/openARM/install/local_setup.sh'
+[1.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/biolab-linux/openARM/install/_local_setup_util_sh.py'
+[1.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biolab-linux/openARM/install/setup.sh'
+[1.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biolab-linux/openARM/install/local_setup.bash'
+[1.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biolab-linux/openARM/install/setup.bash'
+[1.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/biolab-linux/openARM/install/local_setup.zsh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/biolab-linux/openARM/install/setup.zsh'

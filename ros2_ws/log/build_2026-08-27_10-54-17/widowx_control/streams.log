@@ -1,0 +1,18 @@
+[0.901s] Invoking command in '/home/biolab-linux/openARM/ros2_ws/build/widowx_control': PYTHONPATH=/home/biolab-linux/openARM/ros2_ws/build/widowx_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/ros2_ws/install/widowx_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/biolab-linux/openARM/ros2_ws/build/widowx_control/build --no-deps symlink_data
+[1.191s] running develop
+[1.359s] running egg_info
+[1.359s] writing widowx_control.egg-info/PKG-INFO
+[1.359s] writing dependency_links to widowx_control.egg-info/dependency_links.txt
+[1.360s] writing entry points to widowx_control.egg-info/entry_points.txt
+[1.360s] writing requirements to widowx_control.egg-info/requires.txt
+[1.360s] writing top-level names to widowx_control.egg-info/top_level.txt
+[1.362s] reading manifest file 'widowx_control.egg-info/SOURCES.txt'
+[1.363s] writing manifest file 'widowx_control.egg-info/SOURCES.txt'
+[1.365s] running build_ext
+[1.365s] Creating /home/biolab-linux/openARM/ros2_ws/install/widowx_control/lib/python3.10/site-packages/widowx-control.egg-link (link to .)
+[1.366s] Installing widowx_driver script to /home/biolab-linux/openARM/ros2_ws/install/widowx_control/lib/widowx_control
+[1.366s] Installing widowx_gui script to /home/biolab-linux/openARM/ros2_ws/install/widowx_control/lib/widowx_control
+[1.366s] 
+[1.366s] Installed /home/biolab-linux/openARM/ros2_ws/build/widowx_control
+[1.366s] running symlink_data
+[1.386s] Invoked command in '/home/biolab-linux/openARM/ros2_ws/build/widowx_control' returned '0': PYTHONPATH=/home/biolab-linux/openARM/ros2_ws/build/widowx_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/ros2_ws/install/widowx_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/biolab-linux/openARM/ros2_ws/build/widowx_control/build --no-deps symlink_data

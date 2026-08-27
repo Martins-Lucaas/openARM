@@ -1,0 +1,20 @@
+[0.707s] Invoking command in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots': PYTHONPATH=/home/biolab-linux/openARM/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fruit_sorting_webots build --build-base /home/biolab-linux/openARM/build/fruit_sorting_webots/build install --record /home/biolab-linux/openARM/build/fruit_sorting_webots/install.log --install-scripts $base/lib/fruit_sorting_webots --single-version-externally-managed install_data
+[0.904s] running egg_info
+[0.904s] writing ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/dependency_links.txt
+[0.904s] writing entry points to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/entry_points.txt
+[0.905s] writing requirements to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/requires.txt
+[0.905s] writing top-level names to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/top_level.txt
+[0.906s] reading manifest file '../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+[0.907s] writing manifest file '../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+[0.907s] running build
+[0.907s] running build_py
+[0.908s] running install
+[0.908s] running install_lib
+[0.909s] running install_data
+[0.909s] running install_egg_info
+[0.911s] removing '/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots-0.0.0-py3.10.egg-info' (and everything under it)
+[0.911s] Copying ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info to /home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots-0.0.0-py3.10.egg-info
+[0.912s] running install_scripts
+[0.928s] writing list of installed files to '/home/biolab-linux/openARM/build/fruit_sorting_webots/install.log'
+[0.947s] Invoked command in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots' returned '0': PYTHONPATH=/home/biolab-linux/openARM/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fruit_sorting_webots build --build-base /home/biolab-linux/openARM/build/fruit_sorting_webots/build install --record /home/biolab-linux/openARM/build/fruit_sorting_webots/install.log --install-scripts $base/lib/fruit_sorting_webots --single-version-externally-managed install_data

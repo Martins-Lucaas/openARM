@@ -1,0 +1,58 @@
+[0.858s] Invoking command in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots': PYTHONPATH=/home/biolab-linux/openARM/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fruit_sorting_webots build --build-base /home/biolab-linux/openARM/build/fruit_sorting_webots/build install --record /home/biolab-linux/openARM/build/fruit_sorting_webots/install.log --install-scripts $base/lib/fruit_sorting_webots --single-version-externally-managed install_data
+[1.051s] running egg_info
+[1.052s] creating ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info
+[1.052s] writing ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/entry_points.txt
+[1.052s] writing requirements to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/requires.txt
+[1.053s] writing top-level names to ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/top_level.txt
+[1.053s] writing manifest file '../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.054s] reading manifest file '../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.055s] writing manifest file '../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info/SOURCES.txt'
+[1.055s] running build
+[1.055s] running build_py
+[1.055s] creating /home/biolab-linux/openARM/build/fruit_sorting_webots/build
+[1.055s] creating /home/biolab-linux/openARM/build/fruit_sorting_webots/build/lib
+[1.055s] creating /home/biolab-linux/openARM/build/fruit_sorting_webots/build/lib/fruit_sorting_webots
+[1.055s] copying fruit_sorting_webots/__init__.py -> /home/biolab-linux/openARM/build/fruit_sorting_webots/build/lib/fruit_sorting_webots
+[1.056s] running install
+[1.056s] running install_lib
+[1.057s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots
+[1.057s] copying /home/biolab-linux/openARM/build/fruit_sorting_webots/build/lib/fruit_sorting_webots/__init__.py -> /home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots
+[1.057s] byte-compiling /home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots/__init__.py to __init__.cpython-310.pyc
+[1.058s] running install_data
+[1.058s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/ament_index
+[1.059s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/ament_index/resource_index
+[1.059s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/ament_index/resource_index/packages
+[1.059s] copying resource/fruit_sorting_webots -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/ament_index/resource_index/packages
+[1.059s] copying package.xml -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots
+[1.059s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+[1.059s] copying launch/robot_launch.py -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+[1.059s] copying launch/run_sim.launch.py -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/launch
+[1.059s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds
+[1.059s] copying worlds/Universal Robot OpenCV.wbt -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds
+[1.060s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj
+[1.060s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.060s] copying worlds/obj/rail/rail.mtl -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.060s] copying worlds/obj/rail/rail.obj -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.061s] copying worlds/obj/rail/obj.mtl -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/worlds/obj/rail
+[1.062s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers
+[1.062s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv
+[1.062s] copying controllers/fruit_sorting_ctrl_opencv/fruit_sorting_ctrl_opencv.py -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.062s] copying controllers/fruit_sorting_ctrl_opencv/01HSV.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.062s] copying controllers/fruit_sorting_ctrl_opencv/02Orange.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.063s] copying controllers/fruit_sorting_ctrl_opencv/00Roi.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.063s] copying controllers/fruit_sorting_ctrl_opencv/03Green.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/.
+[1.064s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.064s] copying controllers/fruit_sorting_ctrl_opencv/apple/01HSV.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.065s] copying controllers/fruit_sorting_ctrl_opencv/apple/00Roi.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.065s] copying controllers/fruit_sorting_ctrl_opencv/apple/03Green.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/apple
+[1.065s] creating /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.066s] copying controllers/fruit_sorting_ctrl_opencv/orange/01HSV.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.066s] copying controllers/fruit_sorting_ctrl_opencv/orange/02Orange.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.066s] copying controllers/fruit_sorting_ctrl_opencv/orange/00Roi.png -> /home/biolab-linux/openARM/install/fruit_sorting_webots/share/fruit_sorting_webots/controllers/fruit_sorting_ctrl_opencv/orange
+[1.067s] running install_egg_info
+[1.069s] Copying ../../../build/fruit_sorting_webots/fruit_sorting_webots.egg-info to /home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages/fruit_sorting_webots-0.0.0-py3.10.egg-info
+[1.069s] running install_scripts
+[1.085s] writing list of installed files to '/home/biolab-linux/openARM/build/fruit_sorting_webots/install.log'
+[1.104s] Invoked command in '/home/biolab-linux/openARM/legacy/ws_fruit_sorting/fruit_sorting_webots' returned '0': PYTHONPATH=/home/biolab-linux/openARM/build/fruit_sorting_webots/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/fruit_sorting_webots/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/fruit_sorting_webots build --build-base /home/biolab-linux/openARM/build/fruit_sorting_webots/build install --record /home/biolab-linux/openARM/build/fruit_sorting_webots/install.log --install-scripts $base/lib/fruit_sorting_webots --single-version-externally-managed install_data

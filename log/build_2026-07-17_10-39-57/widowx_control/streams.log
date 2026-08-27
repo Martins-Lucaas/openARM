@@ -1,0 +1,22 @@
+[0.889s] Invoking command in '/home/biolab-linux/openARM/ros2_ws/src/widowx_control': PYTHONPATH=/home/biolab-linux/openARM/build/widowx_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/widowx_control build --build-base /home/biolab-linux/openARM/build/widowx_control/build install --record /home/biolab-linux/openARM/build/widowx_control/install.log --install-scripts $base/lib/widowx_control --single-version-externally-managed install_data
+[1.084s] running egg_info
+[1.084s] writing ../../../build/widowx_control/widowx_control.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../../build/widowx_control/widowx_control.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../../../build/widowx_control/widowx_control.egg-info/entry_points.txt
+[1.085s] writing requirements to ../../../build/widowx_control/widowx_control.egg-info/requires.txt
+[1.085s] writing top-level names to ../../../build/widowx_control/widowx_control.egg-info/top_level.txt
+[1.088s] reading manifest file '../../../build/widowx_control/widowx_control.egg-info/SOURCES.txt'
+[1.090s] writing manifest file '../../../build/widowx_control/widowx_control.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.091s] running install
+[1.091s] running install_lib
+[1.093s] running install_data
+[1.094s] running install_egg_info
+[1.096s] removing '/home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control-0.1.0-py3.10.egg-info' (and everything under it)
+[1.096s] Copying ../../../build/widowx_control/widowx_control.egg-info to /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control-0.1.0-py3.10.egg-info
+[1.097s] running install_scripts
+[1.113s] Installing widowx_driver script to /home/biolab-linux/openARM/install/widowx_control/lib/widowx_control
+[1.113s] Installing widowx_gui script to /home/biolab-linux/openARM/install/widowx_control/lib/widowx_control
+[1.114s] writing list of installed files to '/home/biolab-linux/openARM/build/widowx_control/install.log'
+[1.150s] Invoked command in '/home/biolab-linux/openARM/ros2_ws/src/widowx_control' returned '0': PYTHONPATH=/home/biolab-linux/openARM/build/widowx_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/widowx_control build --build-base /home/biolab-linux/openARM/build/widowx_control/build install --record /home/biolab-linux/openARM/build/widowx_control/install.log --install-scripts $base/lib/widowx_control --single-version-externally-managed install_data

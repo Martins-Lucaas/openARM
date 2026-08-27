@@ -1,4 +1,3 @@
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -15,3 +14,15 @@ widowx_control/__init__.py
 widowx_control/armlink.py
 widowx_control/driver_node.py
 widowx_control/gui_node.py
+widowx_control/poses_store.py
+widowx_control/poses_tab.py
+widowx_control/sensors_tab.py
+widowx_control/theme.py
+widowx_control/touch_source.py
+widowx_control.egg-info/PKG-INFO
+widowx_control.egg-info/SOURCES.txt
+widowx_control.egg-info/dependency_links.txt
+widowx_control.egg-info/entry_points.txt
+widowx_control.egg-info/requires.txt
+widowx_control.egg-info/top_level.txt
+widowx_control.egg-info/zip-safe

@@ -1,0 +1,43 @@
+running egg_info
+writing ../../../build/widowx_control/widowx_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/widowx_control/widowx_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/widowx_control/widowx_control.egg-info/entry_points.txt
+writing requirements to ../../../build/widowx_control/widowx_control.egg-info/requires.txt
+writing top-level names to ../../../build/widowx_control/widowx_control.egg-info/top_level.txt
+reading manifest file '../../../build/widowx_control/widowx_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/widowx_control/widowx_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying widowx_control/sensors_tab.py -> /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control
+copying widowx_control/touch_source.py -> /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control
+copying widowx_control/theme.py -> /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control
+copying widowx_control/poses_store.py -> /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control
+copying widowx_control/driver_node.py -> /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control
+copying widowx_control/gui_node.py -> /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control
+copying widowx_control/poses_tab.py -> /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control
+running install
+running install_lib
+copying /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control/sensors_tab.py -> /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control
+copying /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control/touch_source.py -> /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control
+copying /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control/theme.py -> /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control
+copying /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control/poses_store.py -> /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control
+copying /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control/driver_node.py -> /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control
+copying /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control/gui_node.py -> /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control
+copying /home/biolab-linux/openARM/build/widowx_control/build/lib/widowx_control/poses_tab.py -> /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control
+byte-compiling /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control/sensors_tab.py to sensors_tab.cpython-310.pyc
+byte-compiling /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control/touch_source.py to touch_source.cpython-310.pyc
+byte-compiling /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control/theme.py to theme.cpython-310.pyc
+byte-compiling /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control/poses_store.py to poses_store.cpython-310.pyc
+byte-compiling /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control/driver_node.py to driver_node.cpython-310.pyc
+byte-compiling /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control/gui_node.py to gui_node.cpython-310.pyc
+byte-compiling /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control/poses_tab.py to poses_tab.cpython-310.pyc
+running install_data
+copying package.xml -> /home/biolab-linux/openARM/install/widowx_control/share/widowx_control
+copying launch/widowx_control.launch.py -> /home/biolab-linux/openARM/install/widowx_control/share/widowx_control/launch
+running install_egg_info
+removing '/home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/widowx_control/widowx_control.egg-info to /home/biolab-linux/openARM/install/widowx_control/lib/python3.10/site-packages/widowx_control-0.1.0-py3.10.egg-info
+running install_scripts
+Installing widowx_driver script to /home/biolab-linux/openARM/install/widowx_control/lib/widowx_control
+Installing widowx_gui script to /home/biolab-linux/openARM/install/widowx_control/lib/widowx_control
+writing list of installed files to '/home/biolab-linux/openARM/build/widowx_control/install.log'

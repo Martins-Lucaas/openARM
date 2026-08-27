@@ -13,11 +13,12 @@ setup(
         ("share/" + package_name + "/launch",
          ["launch/widowx_control.launch.py"]),
     ],
-    install_requires=["setuptools", "pyserial"],
+    install_requires=["setuptools", "pyserial", "matplotlib", "numpy"],
     zip_safe=True,
     maintainer="Lucas Martins",
     maintainer_email="lucaspmartins14@gmail.com",
-    description="Driver ArmLink e GUI de controle manual para o WidowX Mark II",
+    description="Driver ArmLink, GUI de controle manual, teach pendant de "
+                "poses e aba de sensores para o WidowX Mark II",
     license="MIT",
     entry_points={
         "console_scripts": [
